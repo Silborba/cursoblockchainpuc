@@ -22,31 +22,27 @@ pragma solidity 0.5.12;
         if (valorhora > 300)
         {
         valorhora = 300;
-        } else if  (_valorhora>200 && _horasTrabalhadas>220 = );
-            
         
-     }
+      }
         else if (_valorhora>200 && _valorhora<300){
-         valor = 250
+         valor = 250;
+         
+         {
+             
+         }
      } 
      else if (_valor ==197) {
          valor = 1;
      }
-         
-     }
-     valor =
-        function calculoRemuneracao () (uint256 valorhora, uint256 horas)  public view returns (uint256 remuneracaofinal)
-        {
-        return ;
+     
+     
+    function calculoRemuneracao (uint256 valorhora, uint256 horasTrabalhadas) public view returns (uint256 remuneracaofinal);
+    //ver no contrato 
+    
+            return ;
         // função só serve para duas coisas. ou vai alterar o contrato ou vai retornar alguma coisa
+    }//
+    require é para checar a execução da cláusula
+    for 
+    
     }
-    function simulaMulta( uint256 mesesRestantes, uint256 totalMesesContrato)
-    public
-    view
-    returns(uint256 valorMulta) {
-        
-        valorMulta = valor*multaMaximoAluguelRescisao;
-        valorMulta = valorMulta/totalMesesContrato;
-        valorMulta = valorMulta*mesesRestantes;
-        
-        return valorMulta;
